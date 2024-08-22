@@ -1,2 +1,2 @@
 # University-Webside
-This webside enables learners and student to get in contact with south african universities on one side. Also to assist in registering there prefered universities.
+This webside enables learners and students to get in contact with South African universities. Also to assist in registering there prefered universities.
