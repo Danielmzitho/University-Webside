@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+          
+        <title>University Website Design - Tutorials--</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/Picture1.png"></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                   <li><a href="">COURSE</a></li>
+                   <li><a href="">BLOG</a></li>
+                   <li><a href="">CONTACTS</a></li>
+
+                    </ul>
+
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+            </nav>
+            <div class="text-box">
+                <h1>Universities In South Africa</h1>
+                <p> Any web design needs to look authoritative, convey the correct messages and download with optimum speed.<br> Any good, technically competent web design firm can set this up for you.Making a wesite is now easy <br>you just need HTML,CSS and JavasCript and you are good to go.
+                </p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+        <!-----course-->
+        <section class="course">
+            <h1>Programmes</h1>
+            <P>Postgraduate Diploma, Honours Degrees, Masters Degrees</P>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Postgraduate Diploma</h3>
+                    <p>This qualification come at the immediate post-bachelor's degree level</p>
+
+                </div>
+                <div class="course-col">
+                    <h3>Honours degrees</h3>
+                    <p>This is one year degree, known as the gatewayto postgratuate studies after you have achieved your undergraduate degree in south africa </p>
+                    
+                </div>
+                <div class="course-col">
+                    <h3>Masters degrees</h3>
+                    <p>This qualification come at the immediate post-bachelor's degree level</p>
+                    
+                </div>
+            </div>
+        </section>
+        
+   <!----------Javascript for menu toggle---------->
+        <script>
+
+         var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLInks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+
+        </script>
+    </body>
+</html>
